@@ -1,4 +1,4 @@
-// '!' in the emnd says that the value can never be null
+// '!' in the end says that the value can never be null
 
 // Type casting method 1
 // const inputElement = <HTMLInputElement>document.getElementById('user-input');

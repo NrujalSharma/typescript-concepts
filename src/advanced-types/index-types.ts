@@ -1,6 +1,6 @@
 /**
  * 'Index Types' are flexible types
- * We can defince the type of the keys an object contain
+ * We can define the type of the keys an object can contain
  * and the type of the values that the keys can hold
  * 
  * Thus we can add as many entries to the object using the 'Index Type'

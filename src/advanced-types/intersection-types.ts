@@ -5,7 +5,7 @@
  * If object types have common field names their types should also be same
  */
 
- type Admin = {
+type Admin = {
     name: string;
     priviliges: string[];
 }

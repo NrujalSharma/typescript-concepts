@@ -3,7 +3,7 @@
  * More on utility types:
  * https://www.typescriptlang.org/docs/handbook/utility-types.html
  */
- type OptionalParams = {
+type OptionalParams = {
     a?: number;
     b?: number;
 }
@@ -35,7 +35,7 @@ console.log(todo2);
 const obj1: OptionalParams = { a: 1 };
 // This won't work as Required utility type makes all fields in the Type required
 // const obj2: Required<OptionalParams> = { a: 1 };
-// We have to provide all the prope in the given type (OptionalParams here)
+// We have to provide all the props in the given type (OptionalParams here)
 const obj2: Required<OptionalParams> = { a: 1, b: 2 };
 
 // 3. READONLY
@@ -44,7 +44,7 @@ const todo3: Readonly<Todo> = {
     description: 'Some description'
 };
 
-// This won't work becausetodo3 is a readonly object and hence its properties cannot be updated
+// This won't work because todo3 is a readonly object and hence its properties cannot be updated
 // todo3.title = 'some other title';
 
 // 4. GROUPING UTILITY TYPES
